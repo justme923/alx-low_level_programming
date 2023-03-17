@@ -3,7 +3,7 @@
 *main - entry poit
 *Return: always 0 (success)
 */
-ont main(void)
+int main(void)
 {
 	int i;
 
