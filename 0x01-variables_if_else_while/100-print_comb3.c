@@ -13,8 +13,13 @@ int main(void)
 		{
 			putchar(i);
 			putchar(x);
-			putchar(',');
-			putchar(' ');
+			if (i == '8')
+				continue;
+			else
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
